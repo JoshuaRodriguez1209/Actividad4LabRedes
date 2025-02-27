@@ -72,7 +72,7 @@ file_put_contents($file, "$Boton\n$Potenciometro\n$Movimiento");
                     document.getElementById('movimiento').innerText = valores[2] || 'N/A';
                 });
         }
-        setInterval(actualizarDatos, 1000);
+        setInterval(actualizarDatos, 100);
     </script>
 </head>
 <body onload="actualizarDatos()">
